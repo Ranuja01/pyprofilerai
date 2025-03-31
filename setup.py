@@ -41,7 +41,8 @@ setup(
     long_description=open('README.md').read(),  # Read long description from README file
     long_description_content_type="text/markdown",  # Markdown format for README
     url="https://github.com/Ranuja01/pyprofilerai",
-    packages=["src"],
+    packages=find_packages(where="src"),  # Locate all packages under src/
+    package_dir={"": "src"},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",  # Use MIT License
