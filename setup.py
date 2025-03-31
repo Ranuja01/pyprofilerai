@@ -40,7 +40,7 @@ setup(
     description="A profiling tool with AI-based suggestions for performance optimization",  # Package description
     long_description=open('README.md').read(),  # Read long description from README file
     long_description_content_type="text/markdown",  # Markdown format for README
-    url="https://github.com/yourusername/pyprofilerai",
+    url="https://github.com/Ranuja01/pyprofilerai",
     packages=find_packages(where="src"),  # Locate all packages under src/
     package_dir={"": "src"},
     classifiers=[
