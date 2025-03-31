@@ -37,7 +37,7 @@ setup(
     version="0.1.0",  # Version number
     author="Ranuja Pinnaduwage",
     author_email="Ranuja.Pinnaduwage@gmail.com",
-    description="A profiling tool with AI-based suggestions for performance optimization",  # Package description
+    description="A python profiling tool with AI-based suggestions for performance optimization",  # Package description
     long_description=open('README.md').read(),  # Read long description from README file
     long_description_content_type="text/markdown",  # Markdown format for README
     url="https://github.com/Ranuja01/pyprofilerai",
