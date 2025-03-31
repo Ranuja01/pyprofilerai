@@ -50,8 +50,6 @@ setup(
     ],
     python_requires=">=3.8",  # Specify Python version requirement
     install_requires=[  # Dependencies
-        "cProfile",
-        "pstats",
         "google-genai",
     ],
     # entry_points={  # Optional: define entry points if you want to add CLI commands
