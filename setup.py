@@ -50,7 +50,6 @@ setup(
     ],
     python_requires=">=3.8",  # Specify Python version requirement
     install_requires=[  # Dependencies
-        "inspect",
         "cProfile",
         "pstats",
         "google-genai",
