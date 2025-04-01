@@ -62,7 +62,7 @@ def get_api_key():
     - The Api key if found, else throws an error
     """
     
-    api_key = os.getenv('API_KEY')
+    api_key = os.getenv('GEMINI_API_KEY')
     if api_key is None:
         raise ValueError("API key is missing. Please set the API_KEY environment variable.")
     return api_key
