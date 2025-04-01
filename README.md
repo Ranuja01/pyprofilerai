@@ -126,4 +126,4 @@ Because the profiler barely registers any activity, it's difficult to offer mean
 In summary, the provided code is so simple that optimizing it is unlikely to provide a meaningful performance improvement. Focus on identifying and optimizing more significant bottlenecks in your larger application.  If you need to actually use the result of the calculation, NumPy might offer vectorization advantages.
 
 ### Other Examples
-For a use case on a more detailed function, visit the package folder and open example_usages.oy for this example as well as an example using a more complex function. The example trains a tensorflow model which is a much more time consuming task that can heavily benefit from optimizations. Run the example_usage.py file to see the results!
+For a use case on a more detailed function, visit the package folder and open example_usages.py for this example as well as an example using a more complex function. The example trains a tensorflow model which is a much more time consuming task that can heavily benefit from optimizations. Run the example_usage.py file to see the results!
