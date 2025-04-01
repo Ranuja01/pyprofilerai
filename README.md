@@ -2,7 +2,7 @@
 ## About This Project  
 PyProfilerAI is a code profiling tool that provides AI-driven insights for optimizing code performance. This package is designed to offer a structured approach to integrating AI into software development, assisting both new and experienced developers in writing more efficient code. While large language models (LLMs) like ChatGPT have become popular tools for code improvement, their suggestions often lack real performance insights, leading to unintended inefficiencies and/or bugs.
 
-To address this, PyProfilerAI combines Python’s built-in [`cProfile`](https://docs.python.org/3/library/profile.html) with Google's Gemini AI to analyze function call performance and generate informed optimization suggestions. Unlike the common approach of simply pasting code into an LLM and asking for improvements, this tool provides the model with real execution data, allowing for more precise and context-aware recommendations. By considering actual runtime performance and function calls—including those in external modules—PyProfilerAI delivers smarter, data-driven optimizations rather than speculative advice.
+To address this, PyProfilerAI combines Python’s built-in [`cProfile`](https://docs.python.org/3/library/profile.html) with Google's Gemini AI to analyze function call performance and generate informed optimization suggestions. Unlike the common approach of simply pasting code into an LLM and asking for improvements, this tool provides the model with real execution data, allowing for more precise and context-aware recommendations. By considering actual runtime performance and function calls—including those in external modules—PyProfilerAI delivers smarter, data-driven optimizations rather than speculative advice. *Note:* the suggestions are AI generated and therefore extra caution should be taken before implementing them, especially for more sensitive projects.
 
 ## Build Requirements
 Ensure you have Python 3.8 or greater installed on your system along with an udpated version of pip. *Note:* you must acquire a Gemini API key; they are free to use but you should use them at your own discretion. If you do not wish to input your code with an LLM, then you should look for other alternatives. The following are the instructions for how you can acquire an API key and how to set your environment variables for this package to work:
@@ -47,7 +47,7 @@ The above example is relatively simple, yet a comprehensive report is created to
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function<br>
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects<br>
-        1    0.000    0.000    0.000    0.000 untitled1.py:10(test_function)
+        1    0.000    0.000    0.000    0.000 example_usages.py.py:10(test_function)
 
 
 
