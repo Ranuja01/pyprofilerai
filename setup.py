@@ -34,7 +34,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pyprofilerai",  # Package name
-    version="0.1.0",  # Version number
+    version="0.1.1",  # Version number
     author="Ranuja Pinnaduwage",
     author_email="Ranuja.Pinnaduwage@gmail.com",
     description="A python profiling tool with AI-based suggestions for performance optimization",  # Package description
