@@ -1,4 +1,4 @@
-# pyprofilerai
+# PyProfilerAI
 ## About This Project  
 PyProfilerAI is a code profiling tool that provides AI-driven insights for optimizing code performance. This package is designed to offer a structured approach to integrating AI into software development, assisting both new and experienced developers in writing more efficient code. While large language models (LLMs) like ChatGPT have become popular tools for code improvement, their suggestions often lack real performance insights, leading to unintended inefficiencies and/or bugs.
 
