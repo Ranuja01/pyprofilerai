@@ -34,7 +34,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pyprofilerai",  # Package name
-    version="0.1.1",  # Version number
+    version="0.1.3",  # Version number
     author="Ranuja Pinnaduwage",
     author_email="Ranuja.Pinnaduwage@gmail.com",
     description="A python profiling tool with AI-based suggestions for performance optimization",  # Package description
@@ -47,6 +47,9 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",  # Use MIT License
         "Operating System :: OS Independent",
+        "Intended Audience :: Developers",
+        "Topic :: Scientific/Engineering",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence"
     ],
     python_requires=">=3.8",  # Specify Python version requirement
     install_requires=[  # Dependencies
